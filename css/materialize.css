@@ -1,0 +1,105 @@
+.navbar-fixed {
+    background-color: #0A5EE2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.5s;
+}
+
+#weird-nav {
+    background-color: #0A5EE2;
+}
+
+.card-image {
+    width: auto;
+    height: auto;
+}
+
+#card-title {
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#train-title {
+    color: green;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#crystal-title {
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+.card {
+    height: auto;
+}
+.card-content {
+    height: auto;
+}
+body{
+    background-image: linear-gradient(to bottom right, darkgrey, #0a5ee2);
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+.card {
+    overflow: auto;
+    height: auto;
+}
+.card-image {
+    height: 175px;
+    max-width: 300px;
+}
+#header {
+    font-size: 20px;
+}
+#card-title {
+    font-size: 20px;
+    padding: 2px;
+}
+#train-title {
+    font-size: 20px;
+    padding: 2px;
+}
+#crystal-title {
+    font-size: 20px;
+    padding: 2px;
+}
+p {
+    font-size: 10px;
+}
+.card .card-content {
+    padding: 5px;
+}
+}
+@media only screen and (max-width: 600px) {
+    .card-image{
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+#card-title {
+    font-size: 10px;
+    padding: 1px;
+}
+#train-title {
+    font-size: 10px;
+    padding: 1px;
+}
+#crystal-title {
+    font-size: 10px;
+    padding: 1px;
+}
+p {
+    font-size: 8px;
+}
+.card-image {
+    height: auto;
+}
+}
