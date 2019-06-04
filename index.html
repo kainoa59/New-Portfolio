@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/materialize.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
     <script src="js/logic.js"></script>
 </head>
 
@@ -15,8 +17,17 @@
     <nav id="weird-nav">
         <div class="navbar-fixed">
             <a href="#" id="header" class="brand-logo center">Luke's Portfolio</a>
+            <a style="margin: 15px;"class="waves-effect waves-light btn modal-trigger" href="#modal1">Resume</a>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h6 style="color:black">Luke Patterson's Resume</h6>
+                    <img style="height: 380px; width: 650px;" src="photos/Screen Shot 2019-06-04 at 2.50.09 PM.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <!-- <li><a href="sass.html">Sass</a></li> -->
             </ul>
         </div>
     </nav>
@@ -80,5 +91,4 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 </html>
